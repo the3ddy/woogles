@@ -21,7 +21,7 @@ import Filter from '../filter/Filter';
 const Home = (props: any) => {
   return (
     <BrowserRouter>
-      <h3>Home</h3>
+      <h3>Selections</h3>
       <HomeHeader />
       <Switch>
         <Route path="/home/pagination" component={Pagination} exact={true} />
