@@ -1,3 +1,15 @@
+/**
+ * *********************
+ * 
+ * @module Index
+ * @author the3ddy
+ * @date 5/22/2019
+ * @description top most component
+ * 
+ * *********************
+ */
+
+// dependencies
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/_app/App';
