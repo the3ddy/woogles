@@ -6,6 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
+    "server": "nodemon ./src/server/server.js",
     "storybook": "start-storybook"
   },
   "author": "",
@@ -33,6 +34,7 @@
     "html-webpack-plugin": "^3.2.0",
     "jest": "^24.8.0",
     "node-sass": "^4.12.0",
+    "nodemon": "^1.19.0",
     "react-test-renderer": "^16.8.6",
     "sass-loader": "^7.1.0",
     "source-map-loader": "^0.2.4",
@@ -44,6 +46,9 @@
     "webpack-dev-server": "^3.4.1"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^7.0.3",
