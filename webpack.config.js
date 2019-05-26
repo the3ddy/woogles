@@ -34,7 +34,6 @@ module.exports = {
         ]
     },
     resolve: {
-        // Enable importing JS / JSX / TS / TSX files without specifying their extension
         extensions: ['.js', '.jsx', '.tsx', '.ts'],
     },
     plugins: [
