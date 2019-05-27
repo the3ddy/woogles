@@ -46,6 +46,7 @@
     "webpack-dev-server": "^3.4.1"
   },
   "dependencies": {
+    "@types/react-redux": "^7.0.9",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.4",
     "express": "^4.17.0",

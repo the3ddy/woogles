@@ -9,12 +9,21 @@
  * *********************
  */
 
+// dependencies
+import * as actions from '../actions/actionTypes';
+
 // initialize state
-const initialState = {};
+const initialState = {
+  items: []
+};
 
 export default (state = initialState, action) => {
   switch (action.type) {
-    
+    case actions.SENDING_ITEMS:
+      return {
+        ...state,
+        items: action.payload
+      }
     default:
       return state
   }

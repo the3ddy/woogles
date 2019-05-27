@@ -45,8 +45,10 @@ module.exports = {
     devServer: {
         contentBase: path.join(__dirname, 'dist'),
         historyApiFallback: true,
+        // allows for preventing CORS blockage
         proxy: {
-            '/': 'http://localhost:3000'
+            '/': 'http://localhost:3000',
+            '/items': 'http://localhost:3000'
         }
     }
 }

@@ -21,21 +21,21 @@ import ContactUs from '../contact-us/ContactUs';
 const Main = (props: any) => {
   return (
     <BrowserRouter>
+      {/* Top Bar */}
       <hr />
-
       <h3>Navigation Bar</h3>
       <p>Logo & Title</p>
       <MainHeader />
       <p>Authentication</p>
       <hr />
 
+      {/* Main Page Routing */}
       <Switch>
         <Route path="/" component={Home} exact={true} />
         <Route path="/home" component={Home} exact={true} />
         <Route path="/aboutus" component={AboutUs} exact={true} />
         <Route path="/contactus" component={ContactUs} exact={true} />
       </Switch>
-
       <hr />
     </BrowserRouter>
   )
